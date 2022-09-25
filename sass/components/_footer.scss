@@ -1,0 +1,51 @@
+.page-footer {
+    background-color: var(--block-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.footer-block{
+    display: flex;
+    align-items: baseline;
+    column-gap: 70px;
+}
+
+.adress {
+    font-style: normal; 
+    margin-top: 20px;
+}
+
+.adress__list:not(:first-child) {
+    margin-top: 10px;
+  }
+
+
+.adress__map {
+    line-height: 1.71;
+    color: var(--white-color);
+
+
+}
+
+.adress__mail {
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--timing-fuction);
+
+    &:hover, &:focus{
+        color: var(--accent-color);
+    }
+
+}
+
+.adress__number {
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--timing-fuction);
+    
+    &:hover, &:focus{
+        color: var(--accent-color);
+    }
+
+}

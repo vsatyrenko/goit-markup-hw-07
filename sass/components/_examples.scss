@@ -1,0 +1,35 @@
+.examples {
+    padding-top: 0;
+}
+
+.examples__tittle {
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--title-color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.examples__list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.examples__work {
+    position: relative;
+}
+
+.examples-work__text {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 27px 0;
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    text-transform: uppercase;
+}

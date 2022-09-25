@@ -1,0 +1,45 @@
+.work-filtr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+
+}
+
+
+.work-filtr__button {
+    border: none;
+    border-radius: 4px;
+
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background: var(--back-buttons-color);
+    color: var(--title-color);
+    transition: color var(--timing-fuction), box-shadow var(--timing-fuction), background-color var(--timing-fuction);
+    cursor: pointer;
+
+    &:hover, &:focus{
+    background: #2196F3;
+    color: var(--white-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.work-filtr__button.current {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+
+
+}
+
+.work-filtr__button .current {
+    font-size: 16px;
+    line-height: 1.87;
+    background: var(--accent-color);
+    color: var(--white-color);
+}
